@@ -38,6 +38,9 @@ if __name__ == "__main__":
     filtered_df.show()
     filtered_df.show()
     #feature1
+    #feature2
+    filtered_df.show()
+
 
     print("Finished Hello Spark")
     spark.stop()
