@@ -36,6 +36,11 @@ if __name__ == "__main__":
                              .agg(avg(col("income")).alias("avg_income"))
 
     filtered_df.show()
+    filtered_df.show()
+    #feature1
+    #feature2
+    filtered_df.show()
+
 
     print("Finished Hello Spark")
     spark.stop()
